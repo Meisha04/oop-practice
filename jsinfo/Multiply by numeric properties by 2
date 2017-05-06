@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://en.js.cx/test/libs.js"></script>
+  <script src="test.js"></script>
+</head>
+<body>
+
+  <script>
+
+    function multiplyNumeric(obj) {
+      for (let key in obj) {
+        if (typeof obj[key] == 'number') {
+          obj[key] *= 2;
+        }
+      }
+    }
+
+  </script>
+
+</body>
+</html>
